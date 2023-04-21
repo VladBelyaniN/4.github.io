@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  background-color: #E4E5E6;
+  color: #374151;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.color{
+  background-color: #ffffff;
+  border: 1px solid #d2d6db;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 295px;
+  height: 35px;
+  margin-bottom: 40px;
+  align-items:center;
+
+}
+.color input {
+  margin-top:3px;
+}
+.date{
+	background-color: #ffffff;
+  border: 1px solid #d2d6db;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 295px;
+  height: 35px;
+
+}
+.date input {
+  margin-top:7px;
+}
+.pol{
+	background-color: #ffffff;
+  border: 1px solid #d2d6db;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 295px;
+  height: 35px;
+
+}
+.pol input {
+  margin-top:10px;
+}
+.one {
+  background-color: #acb6e5;
+  box-shadow: 0 0 10px rgba(0,0,0);
+  border-radius: 10px;
+  display: inline-block;
+  width: 1028px;
+  padding: 45px;
+}
+.form__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form__group {
+  margin-bottom: 24px;
+}
+.form__control--grow {
+    height: 140px !important;
+    display: inline-block;
+  }
+.form__control {
+  background: #ffffff;
+  border: 1px solid #d2d6db;
+  border-radius: 6px;
+  padding: 8px;
+  height: 50px;
+  min-width: 295px;
+}
+.form__checkbox {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 24px;
+}
+.form__checkbox input {
+  display: none;
+}
+.form__checkbox input[type="checkbox"]:checked ~ .form__checkbox--label::before {
+  background: #5850eb !important;
+}
+.form__checkbox--label::before {
+  content: "";
+  margin-right: 8px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 6px;
+  background: #ffffff;
+  border: 1px solid #d2d6db;
+  vertical-align: middle;
+}
+.form__submit {
+  padding: 10px 20px;
+    display: flex;
+  font-weight: 500;
+  color: black;
+ background-color: #ffffff;
+  border: 1px solid #d2d6db;
+  border-radius: 6px;
+  margin: left;
+  cursor: pointer;
+  margin-left: auto;
+}
